@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel ="stylesheet" href="index.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+<a href="#"><button class="tablink"  >Home</button></a>
+<a href="form1.html"><button class="tablink"  >Log In</button></a>
+<a href="form.html"><button class="tablink"  >Sign up</button></a>
+<a href="http://www.lilapoonawallafoundation.com/"><button class="tablink"  >About Us</button></a>
+
+<br><br>
+<marquee ><h1> APPLY NOW!!</h1></marquee>
+<br><br>
+
+<section>
+  <img class="mySlides" src="1.jpg" height="500" width="500"
+  style="width:70%">
+  <img class="mySlides" src="2.jpg" height="500" width="500"
+  style="width:70%">
+  <img class="mySlides" src="3.jpg"height="500" width="500"
+  style="width:70%">
+</section>
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+
+
+</script>
+<br>
+<h3>CONTACT US</h3> <br>
+<footer >
+  <a href="#"><i class="fa fa-facebook-official" style="font-size:60px;color:darkblue;"></i></a>
+  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+  <a href="#"><i class="fa fa-pinterest-p" style="font-size:60px;color:darkblue;"></i></a>
+    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+  <a href="#"><i class="fa fa-twitter" style="font-size:60px;color:darkblue;"></i></a>
+    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+  <a href="#"><i class="fa fa-flickr" style="font-size:60px;color:darkblue;"></i></a>
+    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+  <a href="#"><i class="fa fa-linkedin" style="font-size:60px;color:darkblue;"></i></a>
+  
+</footer>
+
+</body>
+</html>

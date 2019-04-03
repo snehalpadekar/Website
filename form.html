@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "style.css">
+	<script src="validation.js"></script>
+</head>
+<body>
+
+
+	<h2>Signup Form</h2>
+	<br>
+	<div class="container">
+		<form name = "myform" action = "login.jsp">	
+			<div class="row">
+				<div class="col-20"><label>Username</label></div>
+				<div class="col-80"><input type="text" name="uname" placeholder="Enter your username"></div>
+	        </div>
+			<div class="row">
+				<div class="col-20"><label>Password</label></div>
+				<div class="col-80"><input type = "password" name = "pwd" placeholder = "Enter your Password"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-20"><label>Confirm Password</label></div>
+				<div class="col-80"><input type = "password" name = "cpwd" placeholder = "Re-enter your Password"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-20"><label>First name</label></div>
+				<div class="col-80"><input type = "text" name = "fname" placeholder = "Enter your First name"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-20"><label>Last name</label></div>
+				<div class="col-80"><input type = "text" name = "lname" placeholder = "Enter your Last name"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-20"><label><span id = "age">Age</span></label></div>
+				<div class="col-80"><input type = "text" name = "age" placeholder = "Enter your Age"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-20"><label>Gender</label></div>
+				<div class="col-80">
+					<input type = "radio" name = "gender" value = "Male">Male
+					<input type = "radio" name = "gender" value = "Female">Female
+					<input type = "radio" name = "gender" value = "Others">Others
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-20"><label>Email Id</label></div>
+				<div class="col-80"><input type="text" name="mail" placeholder="Enter your Email id"></div>
+	        </div>
+
+			<div class="row">
+				<div class="col-20"><label>Course</label></div>
+				<div class="col-80">
+					<select name = "course">
+					<option>Select Class</option>
+					<option>SE COMP</option>
+					<option>TE COMP</option>
+					<option>BE COMP</option>
+					</select>
+				</div>
+	        </div>
+
+			<div class="row">
+				<div class="col-20"><label>Mobile No.</label></div>
+				<div class="col-80"><input type="text" name="mob" placeholder="Enter your Mobile number"></div>
+	        </div>
+
+			<div class="row">
+				<div class="col-20"><label>Permanent Address</label></div>
+				<div class="col-80"><input type = "textarea" name = "padd" placeholder = "Enter your Permanent Address"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-20"><label>Local Address</label></div>
+				<div class="col-80"><input type = "textarea" name = "ladd" placeholder = "Enter your Local Address"></div>
+			</div>
+
+			<div class="row">
+				<div class="submit-wrap"><input type="submit" value="Submit" onclick = "return validate();"></div>
+			</div>
+			
+		</form>
+		
+	</div>
+
+</body>
+
+</html>

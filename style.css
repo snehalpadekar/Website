@@ -1,0 +1,73 @@
+
+
+h2 
+{
+	padding : 20px;
+	background-color : #000000;
+	text-align : center;
+	color : white;
+    margin : auto;
+    border : 1px solid black;
+    border-radius : 5px;
+    width : 80%;
+}
+
+.container
+{
+    border:1px solid blue;
+    border-radius: 7px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.col-20
+{
+    width: 20%;
+    float:left;
+    margin-top: 5px;
+}
+
+.col-80
+{
+    width: 80%;
+    float:left;
+    margin-top: 5px;
+}
+
+input[type=text], input[type=password]
+{
+	width : 100%;
+	padding : 4px;
+	margin-bottom : 10px;
+}
+
+.submit-wrap
+{
+	//padding : 20px;
+	text-align : center;
+}
+
+input[type=submit]
+{
+	font-size : 20px;
+	background-color : #000000;
+	color : white;
+	border:1px solid black;
+    border-radius: 5px;
+    cursor : pointer;
+}
+
+form
+{
+	margin : 15px;
+}
+
+input[type=textarea]
+{
+	width: 100%; 
+	height: 40px;
+    padding : 4px;
+	margin-bottom : 10px;
+}
